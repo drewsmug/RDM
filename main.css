@@ -1,0 +1,394 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+html, body
+{
+	background: #d3d3d3;
+	height:100%;
+	
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+
+A:link {text-decoration: none;
+color:#d62336;}
+A:visited {text-decoration: none;
+color:#d62336;}
+A:active {text-decoration: none;
+color:#d62336;}
+A:hover {text-decoration: none;
+color:#d62336;}
+
+@font-face {
+	font-family: myriadpro_font;
+	src: url('MyriadPro-Regular.otf');
+}
+
+p, h3
+{
+	font-family:myriadpro_font;
+	color:#808080;
+	font-size:.85em;
+}
+
+p.bold
+{
+	font-size:1.1em;
+}
+
+h1
+{
+	font-family:myriadpro_font;
+	font-size:1.8em;
+	clear: both;
+	font-weight: normal;
+	color:#d62336;
+}
+
+h4
+{
+	font-family:myriadpro_font;
+	font-size:1.4em;
+	clear: both;
+	font-weight: normal;
+	color:#d62336;
+}
+
+h2
+{
+	font-family:myriadpro_font;
+	font-size:1.3em;
+	clear: both;
+	font-weight: normal;
+	color:#d62336;
+}
+
+#wrapper
+{
+	/*gradient*/
+	/*Should work in FF Chrome and Safari*/
+	background: -moz-linear-gradient(center top, #d3d3d3, #f7f7f7 25%, #ffffff 50%, #f7f7f7 75%, #d3d3d3);
+	background: -webkit-gradient(linear, center top, center bottom, from(#d3d3d3), color-stop(25%, #f7f7f7), color-stop(50%, #ffffff), color-stop(75%, #f7f7f7), to(#d3d3d3));
+	
+	
+	position:absolute;
+	left:0px;
+	top:0px;
+	
+	width:100%;
+    overflow: hidden;
+	
+	margin:0px;
+	border:0px;
+	padding:0px;
+}
+
+#mini_wrapper
+{
+	/*torquoise line*/
+	background-image:url(image/line_blue.png);
+	background-repeat:repeat-x;
+}
+
+#page_container
+{
+	background:none;
+	
+	width:100%;
+    max-width:1100px;
+	
+	margin:auto;
+	border:0px;
+	padding:0px;
+}
+
+#header
+{
+	background:none;
+	height:83px;
+}
+
+#logo
+{
+	background:none;
+	position:relative;
+	
+	top:30px;
+	float:left;
+	
+	margin:auto;
+	border:0px;
+	padding:0px;
+}
+
+#menu
+{
+	background:none;
+	position:relative;
+	
+	top:60px;
+	float:right;
+	
+	margin:auto;
+	border:0px;
+	padding:0px;
+}
+
+
+
+ol, ul {
+	list-style: none;
+}
+
+#splash_select {
+    float: left;
+    width: 100%;
+    max-width: 1100px;
+}
+#splash_select li {
+	background:none;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    width: 20px;
+}
+
+#centerThis {
+    float: left;
+    width: 100%;
+}
+#centerThis li {
+    float: left;
+    width: 33%;
+}
+
+#work_image_select li {
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    width: 20px;
+}
+
+ul{
+	margin:0px;
+    padding:0px;
+}
+
+li{
+    width:60px;
+    display:inline-block;
+    list-style:none;
+    height:45px;
+    overflow:hidden;
+}
+
+a img{
+    border:none;
+}
+
+#footer
+{
+	background:none;
+	height:83px;
+	clear:both;
+}
+#drop_thing {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+#content
+{
+	/*background-image:url(image/content_border02.png);*/
+	background-repeat:no-repeat;
+	position: relative;
+	/*
+	height:567px;
+	width:1100px;
+	
+	
+    
+    z-index: 1;
+    float: left;
+	*/
+}
+
+#content_work
+{
+	background-image:url(image/content_border02.png);
+	background-repeat:no-repeat;
+}
+
+#content_people
+{
+	background-image:url(image/content_border02.png);
+	background-repeat:no-repeat;
+}
+
+#drop
+{
+	width:inherit;
+	background:none;
+}
+
+.splash_drop
+{
+	background:none;
+	margin:auto;
+}
+
+
+.splash img {
+	margin: 0 auto;
+	display: block;
+}
+
+.splash {
+	background-color:none;
+    position: absolute;
+    left: 100%;
+	bottom: 0;
+    padding: 0 2%;
+    width: 96%;
+	z-index: 10;
+}
+.splash.selected {
+	background-color:none;
+    left: 0;
+}
+.splash-content {
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    float: left;
+    height: 567px;
+    overflow: hidden;
+    position: relative;
+    padding:0px;
+    width:1100px;
+}
+
+.service-content {
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    float: left;
+    height: 567px;
+    overflow: hidden;
+    position: relative;
+    padding:0px;
+    width:1100px;
+}
+
+/* WORK PAGE */
+
+#temp
+{
+	background:none;
+	width:100%;
+	height:33%;
+}
+
+#work_one
+{
+	background:none;
+	height:33%;
+}
+
+#work_two
+{
+	background:none;
+	height:33%;
+}
+
+#work_three
+{
+	background:none;
+}
+
+img.work_img
+{
+	float:left;
+}
+
+p.work_text
+{
+	float:left;
+	color:#d40515;
+	font-size:2em;
+	font-family:Myraid Pro;
+	
+	position:relative;
+	top:40px;
+	left:100px;
+}
+
+#selected
+{
+	background:none;
+}
+
+.work_images
+{
+	background:none;
+	float:left;
+	width:564px;
+    overflow: hidden;
+    position: relative;	
+}
+
+#service_content
+{
+	margin-top:70px;
+}
+
+.service_boy
+{
+	margin-top:20px;
+	background:none;
+	float:left;
+    position: relative;	
+}
+
+#work_content
+{
+	background:none;
+	float:right;
+	width:536px;
+	height:inherit;
+	
+	margin-top:40px;
+	margin-bottom:auto;
+}
+
+#work_image_select
+{
+	background:none;
+    float: left;
+    width: 100%;
+}
+
+#work_Image_footer
+{
+	background:none;
+	margin-top:510px;
+	clear:both;
+}
+
+
+.work {
+	position:absolute;
+	background-color:none;
+    left: 100%;
+    padding:0 2%;
+}
+.work.selected2 {
+	background-color:none;
+    left: 0;
+}
